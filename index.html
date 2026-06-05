@@ -1,0 +1,819 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Portfolio of an aspiring IT student and software developer specializing in IoT, web development, and innovative tech solutions.">
+  <meta name="keywords" content="IT Student, Software Developer, Portfolio, IoT, Web Development, React, Python">
+  <meta name="author" content="Kenneath Kim D. Gomez">
+  <meta name="theme-color" content="#0f172a">
+  <title>Kenneath Kim Gomez | IT Student & Aspiring Developer</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <!-- Preloader -->
+  <div id="preloader" class="preloader">
+    <div class="preloader-content">
+      <div class="preloader-name">;</div>
+      <div class="preloader-bar">
+        <div class="preloader-progress"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Custom Cursor -->
+  <div class="cursor-dot"></div>
+  <div class="cursor-outline"></div>
+
+  <!-- Navigation -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="nav-logo">
+        <span class="logo-bracket">
+          < </span>KK<span class="logo-bracket"></span>/>
+      </a>
+      <ul class="nav-menu" id="nav-menu">
+        <li><a href="#hero" class="nav-link">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#achievements" class="nav-link">Achievements</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <div class="nav-actions">
+        <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark/light mode">
+          <i class="fas fa-moon"></i>
+        </button>
+        <div class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="hero" class="hero">
+    <div class="hero-bg">
+      <div class="gradient-orb orb-1"></div>
+      <div class="gradient-orb orb-2"></div>
+      <div class="gradient-orb orb-3"></div>
+      <div class="grid-overlay"></div>
+    </div>
+    <div class="hero-container">
+      <div class="hero-badge fade-in">
+        <span class="badge-dot"></span>
+        Available for Internships
+      </div>
+      <h1 class="hero-title fade-in">
+        <span class="title-greeting">Hi, I'm</span>
+        <span class="title-name">Kenneath Kim Gomez</span>
+      </h1>
+      <div class="hero-role fade-in">
+        <span class="role-text" id="typewriter"></span>
+        <span class="role-cursor">|</span>
+      </div>
+      <p class="hero-tagline fade-in">
+        Passionate about building technology that solves real-world problems.
+        From IoT systems to full-stack applications, I turn ideas into impactful solutions.
+      </p>
+      <div class="hero-buttons fade-in">
+        <a href="#projects" class="btn btn-primary">
+          <i class="fas fa-rocket"></i>
+          View Projects
+        </a>
+        <a href="#contact" class="btn btn-secondary">
+          <i class="fas fa-envelope"></i>
+          Contact Me
+        </a>
+      </div>
+      <div class="tech-pills fade-in">
+        <span class="pill"><i class="fab fa-python"></i>Python</span>
+        <span class="pill"><i class="fab fa-js"></i>JavaScript</span>
+        <span class="pill"><i class="fab fa-react"></i>React</span>
+        <span class="pill"><i class="fas fa-microchip"></i>IoT</span>
+        <span class="pill"><i class="fas fa-code"></i>Full Stack</span>
+      </div>
+    </div>
+    <a href="#about" class="scroll-indicator" aria-label="Scroll down">
+      <div class="mouse">
+        <div class="wheel"></div>
+      </div>
+      <div class="arrow">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </a>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <div class="container">
+      <div class="section-header fade-in">
+        <span class="section-tag">About Me</span>
+        <h2 class="section-title">Driven by Curiosity,<br>Powered by Code</h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-card about-bio fade-in">
+          <div class="card-glow"></div>
+          <h3>Who I Am</h3>
+          <p>
+            I'm an IT student with a relentless drive to understand how technology can transform lives.
+            Currently pursuing my Bachelor's in Information Technology, I specialize in software development,
+            IoT systems, and building innovative tech solutions that bridge the gap between hardware and software.
+          </p>
+          <p>
+            My journey started with a simple Arduino project and has evolved into building full-stack applications,
+            machine learning models, and smart IoT ecosystems. I believe in writing clean code, thinking systematically,
+            and never stopping learning.
+          </p>
+          <div class="about-mission">
+            <i class="fas fa-quote-left"></i>
+            <p>To create technology that is not just functional, but meaningful — solving real problems for real people.
+            </p>
+          </div>
+        </div>
+        <div class="about-card about-stats fade-in">
+          <div class="stat-item">
+            <div class="stat-icon"><i class="fas fa-laptop-code"></i></div>
+            <div class="stat-info">
+              <span class="counter" data-target="15">3</span>
+              <span class="stat-label">Projects Built</span>
+            </div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-icon"><i class="fas fa-certificate"></i></div>
+            <div class="stat-info">
+              <span class="counter" data-target="6">4+</span>
+              <span class="stat-label">Certifications</span>
+            </div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-icon"><i class="fas fa-clock"></i></div>
+            <div class="stat-info">
+              <span class="counter" data-target="3">4+</span>
+              <span class="stat-label">Years Coding</span>
+            </div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-icon"><i class="fas fa-award"></i></div>
+            <div class="stat-info">
+              <span class="counter" data-target="3.8">89.46</span>
+              <span class="stat-label">Current GPA</span>
+            </div>
+          </div>
+        </div>
+        <div class="about-card about-interests fade-in">
+          <h3>What I Love</h3>
+          <div class="interests-grid">
+            <div class="interest-item">
+              <i class="fas fa-code"></i>
+              <span>Software Development</span>
+            </div>
+            <div class="interest-item">
+              <i class="fas fa-microchip"></i>
+              <span>IoT Systems</span>
+            </div>
+            <div class="interest-item">
+              <i class="fas fa-brain"></i>
+              <span>Web Development</span>
+            </div>
+            <div class="interest-item">
+              <i class="fas fa-wifi"></i>
+              <span>Network Engineering</span>
+            </div>
+            <div class="interest-item">
+              <i class="fas fa-suitcase"></i>
+              <span>System Servicing</span>
+            </div>
+            <div class="interest-item">
+              <i class="fas fa-paint-brush"></i>
+              <span>Web Designing</span>
+            </div>
+          </div>
+        </div>
+        <div class="about-card about-edu fade-in">
+          <h3>Education</h3>
+          <div class="edu-item">
+            <div class="edu-icon"><i class="fas fa-graduation-cap"></i></div>
+            <div class="edu-info">
+              <h4>Bachelor of Science in Information Technology</h4>
+              <p>Davao Del Norte State College</p>
+              <span class="edu-year">2022 — Present</span>
+            </div>
+          </div>
+          <div class="edu-item">
+            <div class="edu-icon"><i class="fas fa-school"></i></div>
+            <div class="edu-info">
+              <h4>New Corella National High School</h4>
+              <p>TVL-CSS</p>
+              <span class="edu-year">2020 — 2022</span>
+            </div>
+          </div>
+          <a href="resume.pdf" class="btn btn-outline btn-sm" download="Kenneath_Kim_Gomez_Resume.pdf">
+            <i class="fas fa-download"></i>
+            Download Resume
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="skills">
+    <div class="container">
+      <div class="section-header fade-in">
+        <span class="section-tag">My Toolkit</span>
+        <h2 class="section-title">Skills & Technologies</h2>
+      </div>
+      <div class="skills-grid">
+        <div class="skill-category fade-in">
+          <div class="skill-header">
+            <div class="skill-icon"><i class="fas fa-code"></i></div>
+            <h3>Programming Languages</h3>
+          </div>
+          <div class="skill-items">
+            <div class="skill-item">
+              <div class="skill-info">
+                <span><i class="fab fa-python"></i> Python</span>
+                <span class="skill-percent">90%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" style="width: 90%"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info">
+                <span><i class="fab fa-java"></i> Java</span>
+                <span class="skill-percent">75%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" style="width: 75%"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info">
+                <span><i class="fab fa-js"></i> JavaScript</span>
+                <span class="skill-percent">85%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" style="width: 85%"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info">
+                <span><i class="fas fa-database"></i> SQL</span>
+                <span class="skill-percent">70%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" style="width: 70%"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="skill-category fade-in">
+          <div class="skill-header">
+            <div class="skill-icon"><i class="fas fa-laptop-code"></i></div>
+            <h3>Web Development</h3>
+          </div>
+          <div class="skill-items">
+            <div class="skill-item">
+              <div class="skill-info">
+                <span><i class="fab fa-html5"></i> HTML5 & CSS3</span>
+                <span class="skill-percent">95%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" style="width: 95%"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info">
+                <span><i class="fab fa-react"></i> React</span>
+                <span class="skill-percent">80%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" style="width: 80%"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info">
+                <span><i class="fab fa-node-js"></i> Node.js</span>
+                <span class="skill-percent">70%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" style="width: 70%"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info">
+                <span><i class="fas fa-wind"></i> Tailwind CSS</span>
+                <span class="skill-percent">85%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" style="width: 85%"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="skill-category fade-in">
+          <div class="skill-header">
+            <div class="skill-icon"><i class="fas fa-tools"></i></div>
+            <h3>Tools & Technologies</h3>
+          </div>
+          <div class="skill-items">
+            <div class="skill-item">
+              <div class="skill-info">
+                <span><i class="fab fa-git-alt"></i> Git & GitHub</span>
+                <span class="skill-percent">88%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" style="width: 88%"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info">
+                <span><i class="fas fa-fire"></i> Firebase</span>
+                <span class="skill-percent">75%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" style="width: 75%"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info">
+                <span><i class="fas fa-microchip"></i> Arduino & ESP32</span>
+                <span class="skill-percent">85%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" style="width: 85%"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info">
+                <span><i class="fab fa-figma"></i> Figma</span>
+                <span class="skill-percent">70%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" style="width: 70%"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="projects">
+    <div class="container">
+      <div class="section-header fade-in">
+        <span class="section-tag">Featured Work</span>
+        <h2 class="section-title">Projects That Define Me</h2>
+      </div>
+      <div class="projects-grid">
+        <!-- Project 1 -->
+        <article class="project-card fade-in flip-card" data-tilt>
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <div class="project-image">
+                <img src="638617543_1287436399914125_826527754000528588_n.jpg" alt="IoT Water Monitoring System"
+                  style="width: 100%; height: 100%; object-fit: cover; display: block; aspect-ratio: 16/9;">
+                <div class="project-overlay">
+                  <a href="404.html" class="project-link" aria-label="View GitHub repository">
+                    <i class="fab fa-github"></i>
+                  </a>
+                  <a href="#" class="project-link" aria-label="View live demo">
+                    <i class="fas fa-external-link-alt"></i>
+                  </a>
+                </div>
+              </div>
+              <div class="project-content">
+                <h3>IoT Water Monitoring System</h3>
+                <p>
+                  An intelligent water quality monitoring and automated fish feeding system using ESP32,
+                  pH sensors, and turbidity sensors. Data is streamed to a Firebase real-time dashboard
+                  with automated alerts and feeding schedules.
+                </p>
+                <div class="project-tech">
+                  <span>ESP32</span>
+                  <span>Firebase</span>
+                  <span>Python</span>
+                  <span>React</span>
+                </div>
+                <button class="btn btn-outline btn-sm flip-btn">View Details</button>
+              </div>
+            </div>
+            <div class="flip-card-back">
+              <h3>IoT Water Monitoring System</h3>
+              <p>
+                This project addresses the challenges of maintaining optimal water quality in aquaculture.
+                By integrating ESP32 microcontrollers with various sensors, the system ensures a healthy
+                environment for aquatic life. The automated feeding mechanism is synchronized with real-time
+                data, reducing waste and improving efficiency.
+              </p>
+              <button class="btn btn-outline btn-sm flip-btn-back">Go Back</button>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 2 -->
+        <article class="project-card fade-in flip-card" data-tilt>
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <div class="project-image">
+                <img src="image.png" alt="Transportation Safety App"
+                  style="width: 100%; height: 100%; object-fit: cover; display: block; aspect-ratio: 16/9;">
+                <div class="project-overlay">
+                  <a href="404.html" class="project-link" aria-label="View GitHub repository">
+                    <i class="fab fa-github"></i>
+                  </a>
+                  <a href="https://sample-website-project-techno.my.canva.site/website-yellowdash" class="project-link"
+                    aria-label="View live demo">
+                    <i class="fas fa-external-link-alt"></i>
+                  </a>
+                </div>
+              </div>
+              <div class="project-content">
+                <h3>Transportation Safety App</h3>
+                <p>
+                  A ride-hailing safety application featuring real-time incident reporting,
+                  driver verification, emergency SOS alerts, and route safety scoring.
+                  Built with Flutter and PHP backend with Maps API integration.
+                </p>
+                <div class="project-tech">
+                  <span>Flutter</span>
+                  <span>PHP</span>
+                  <span>Javascript</span>
+                  <span>Maps API</span>
+                </div>
+                <button class="btn btn-outline btn-sm flip-btn">View Details</button>
+              </div>
+            </div>
+            <div class="flip-card-back">
+              <h3>Transportation Safety App</h3>
+              <p>
+                Developed to enhance commuter security, this app leverages geolocation and real-time
+                communication. The integration of emergency SOS and route scoring provides users with
+                peace of mind. Overcoming the challenges of real-time mapping was a key achievement
+                in this project.
+              </p>
+              <button class="btn btn-outline btn-sm flip-btn-back">Go Back</button>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 3 -->
+        <article class="project-card fade-in flip-card" data-tilt>
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <div class="project-image">
+                <img src="3.png" alt="IoT Web Based Water Quality Monitoring Dashboard"
+                  style="width: 100%; height: 100%; object-fit: cover; display: block; aspect-ratio: 16/9;">
+                <div class="project-overlay">
+                  <a href="404.html" class="project-link" aria-label="View GitHub repository">
+                    <i class="fab fa-github"></i>
+                  </a>
+                  <a href="" class="project-link" aria-label="View live demo">
+                    <i class="fas fa-external-link-alt"></i>
+                  </a>
+                </div>
+              </div>
+              <div class="project-content">
+                <h3>IoT Web Based Water Quality Monitoring Dashboard</h3>
+                <p>
+                  A comprehensive student performance analytics platform for academic institutions.
+                  Features include grade prediction using ML, attendance tracking,
+                  and interactive data visualizations for educators and students.
+                </p>
+                <div class="project-tech">
+                  <span>Python</span>
+                  <span>Firebase</span>
+                  <span>CSS</span>
+                  <span>Javascript</span>
+                  <span>Chart.js</span>
+                </div>
+                <button class="btn btn-outline btn-sm flip-btn">View Details</button>
+              </div>
+            </div>
+            <div class="flip-card-back">
+              <h3>IoT Web Based Dashboard</h3>
+              <p>
+                This analytics dashboard translates raw IoT and ML data into actionable insights.
+                By employing Chart.js and Firebase, it delivers an interactive, real-time experience
+                that helps educators track performance trends and predict student outcomes with high accuracy.
+              </p>
+              <button class="btn btn-outline btn-sm flip-btn-back">Go Back</button>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Achievements Section -->
+  <section id="achievements" class="achievements">
+    <div class="container">
+      <div class="section-header fade-in">
+        <span class="section-tag">Milestones</span>
+        <h2 class="section-title">Achievements & Certifications</h2>
+      </div>
+      <div class="achievements-grid">
+        <!-- Academic -->
+        <div class="achievement-card fade-in">
+          <div class="achievement-icon">
+            <i class="fas fa-trophy"></i>
+          </div>
+          <h3>Academic Excellence</h3>
+          <ul class="achievement-list">
+            <li>
+              <i class="fas fa-check-circle"></i>
+              <span>2nd Honor Dean's List (4th year)</span>
+            </li>
+            <li>
+              <i class="fas fa-check-circle"></i>
+              <span>2nd Honor Dean's List (3rd year)</span>
+            </li>
+            <li>
+              <i class="fas fa-check-circle"></i>
+              <span>2nd Honor Dean's List (1st year)</span>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Competitions -->
+        <div class="achievement-card fade-in">
+          <div class="achievement-icon">
+            <i class="fas fa-medal"></i>
+          </div>
+          <h3>Competitions</h3>
+          <ul class="achievement-list">
+            <li>
+              <i class="fas fa-check-circle"></i>
+              <span>Design Innovation Awardee in Technoprenuer</span>
+            </li>
+            <li>
+              <i class="fas fa-check-circle"></i>
+              <span>Finalist — IoT Innovation Challenge</span>
+            </li>
+            <li>
+              <i class="fas fa-check-circle"></i>
+              <span>Capstone Project Finalist </span>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Certifications -->
+        <div class="achievement-card fade-in certifications-card" id="certifications-trigger" tabindex="0">
+          <div class="achievement-icon">
+            <i class="fas fa-certificate"></i>
+          </div>
+          <h3>Certifications</h3>
+          <ul class="achievement-list" id="achievements-cert-list">
+            <!-- Populated dynamically via JS from IndexedDB -->
+          </ul>
+          <div class="click-hint">
+            <i class="fas fa-expand-alt"></i> Click to see other certificates.
+          </div>
+        </div>
+
+        <!-- Capstone -->
+        <div class="achievement-card fade-in">
+          <div class="achievement-icon">
+            <i class="fas fa-rocket"></i>
+          </div>
+          <h3>Capstone Deployment</h3>
+          <ul class="achievement-list">
+            <li>
+              <i class="fas fa-check-circle"></i>
+              <span>IoT Based Water Quality Monitoring with Automated Feeding</span>
+            </li>
+            <li>
+              <i class="fas fa-check-circle"></i>
+              <span>Travel Safety App</span>
+            </li>
+            <li>
+              <i class="fas fa-check-circle"></i>
+              <span>Published research paper on IoT automation</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <div class="section-header fade-in">
+        <span class="section-tag">Get In Touch</span>
+        <h2 class="section-title">Let's Build Something Amazing</h2>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-info fade-in">
+          <div class="contact-card">
+            <h3>Contact Information</h3>
+            <p>I'm currently open to internship opportunities, freelance projects, and collaborative work. Reach out and
+              let's discuss how I can contribute to your team.</p>
+            <div class="contact-items">
+              <div class="contact-item">
+                <div class="contact-item-icon">
+                  <i class="fas fa-envelope"></i>
+                </div>
+                <div class="contact-item-info">
+                  <span class="contact-item-label">Email</span>
+                  <a href="mailto:gomez.kenneathkim@dnsc.edu.ph">gomez.kenneathkim@dnsc.edu.ph</a>
+                </div>
+              </div>
+              <div class="contact-item">
+                <div class="contact-item-icon">
+                  <i class="fas fa-phone"></i>
+                </div>
+                <div class="contact-item-info">
+                  <span class="contact-item-label">Phone</span>
+                  <a href="tel:+639700323509">+63 (970) 032-3509</a>
+                </div>
+              </div>
+              <div class="contact-item">
+                <div class="contact-item-icon">
+                  <i class="fas fa-map-marker-alt"></i>
+                </div>
+                <div class="contact-item-info">
+                  <span class="contact-item-label">Location</span>
+                  <span>New Corella,DDN</span>
+                </div>
+              </div>
+            </div>
+            <div class="contact-social">
+              <a href="#" class="social-link" aria-label="GitHub">
+                <i class="fab fa-github"></i>
+              </a>
+              <a href="#" class="social-link" aria-label="LinkedIn">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+              <a href="#" class="social-link" aria-label="Twitter">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a href="https://www.instagram.com/meowrrr.soju/" class="social-link" aria-label="Instagram">
+                <i class="fab fa-instagram"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="contact-form-wrapper fade-in">
+          <form id="contact-form" class="contact-form" action="https://formsubmit.co/gomez.kenneathkim@dnsc.edu.ph"
+            method="POST">
+            <div class="form-row">
+              <div class="form-group">
+                <input type="text" name="name" id="name" placeholder=" " required>
+                <label for="name">Your Name</label>
+                <span class="form-error" id="name-error"></span>
+              </div>
+              <div class="form-group">
+                <input type="email" name="email" id="email" placeholder=" " required>
+                <label for="email">Your Email</label>
+                <span class="form-error" id="email-error"></span>
+              </div>
+            </div>
+            <div class="form-group">
+              <input type="text" name="subject" id="subject" placeholder=" " required>
+              <label for="subject">Subject</label>
+              <span class="form-error" id="subject-error"></span>
+            </div>
+            <div class="form-group">
+              <textarea name="message" id="message" placeholder=" " rows="5" required></textarea>
+              <label for="message">Your Message</label>
+              <span class="form-error" id="message-error"></span>
+            </div>
+            <button type="submit" class="btn btn-primary btn-full">
+              <span class="btn-text">Send Message</span>
+              <i class="fas fa-paper-plane"></i>
+            </button>
+            <div class="form-status" id="form-status"></div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-brand">
+          <a href="#hero" class="footer-logo">
+            <span class="logo-bracket">
+              < </span>KK<span class="logo-bracket"></span>/>
+          </a>
+          <p>Building the future, one line of code at a time.</p>
+        </div>
+        <div class="footer-social">
+          <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+          <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+          <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+          <a href="#" aria-label="Email"><i class="fas fa-envelope"></i></a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Kenneath Kim Gomez. All rights reserved.</p>
+        <p class="footer-credit">Designed & Built with <i class="fas fa-heart"></i> and lots of <i
+            class="fas fa-coffee"></i></p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Certificates Modal -->
+  <div id="certificates-modal" class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+    <div class="modal-backdrop"></div>
+    <div class="modal-container">
+      <button class="modal-close" id="modal-close" aria-label="Close modal">
+        <i class="fas fa-times"></i>
+      </button>
+      <div class="modal-header">
+        <div class="modal-badge"><i class="fas fa-award"></i> Professional Portfolio</div>
+        <h2 id="modal-title" class="modal-title">Verified Credentials</h2>
+        <p class="modal-subtitle">Browse industry certifications, academic awards, and seminar credentials</p>
+
+        <!-- Summary Stats Board -->
+        <div class="modal-stats" id="modal-stats">
+          <div class="stat-card">
+            <span class="stat-num" id="stat-total-count">0</span>
+            <span class="stat-label-text">Total Badges</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-num" id="stat-tech-count">0</span>
+            <span class="stat-label-text">Tech Certs</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-num" id="stat-acad-count">0</span>
+            <span class="stat-label-text">Academic & Workshops</span>
+          </div>
+        </div>
+
+        <!-- Controls Container (Search + Filter) -->
+        <div class="modal-controls">
+          <div class="search-box-wrapper">
+            <i class="fas fa-search search-icon"></i>
+            <input type="text" id="cert-search" class="cert-search-input"
+              placeholder="Search title, issuer, or skills...">
+            <button id="clear-search-btn" class="clear-search-btn hidden" aria-label="Clear search">
+              <i class="fas fa-times"></i>
+            </button>
+          </div>
+
+          <div class="filter-pills" id="filter-pills">
+            <button class="filter-pill active" data-category="all">All</button>
+            <button class="filter-pill" data-category="cisco">Cisco</button>
+            <button class="filter-pill" data-category="security">Security</button>
+            <button class="filter-pill" data-category="development">Development</button>
+            <button class="filter-pill" data-category="workshop">Workshops</button>
+            <button class="filter-pill" data-category="academic">Academic</button>
+          </div>
+        </div>
+      </div>
+      <div class="modal-body">
+        <!-- Dynamic Grid Container -->
+        <div class="modal-grid" id="cert-grid">
+          <!-- Populated dynamically via JS -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Certificate Image Lightbox -->
+  <div id="certificate-lightbox" class="lightbox" role="dialog" aria-modal="true" aria-labelledby="lightbox-title-text">
+    <div class="lightbox-backdrop" id="lightbox-backdrop"></div>
+    <div class="lightbox-container">
+      <button class="lightbox-close" id="lightbox-close" aria-label="Close preview">
+        <i class="fas fa-times"></i>
+      </button>
+      <div class="lightbox-body">
+        <div class="lightbox-content" id="lightbox-content">
+          <!-- Dynamic image or CSS-rendered template preview goes here -->
+        </div>
+      </div>
+      <div class="lightbox-footer">
+        <h3 id="lightbox-title-text">Certificate Title</h3>
+        <p id="lightbox-issuer-text">Issuer</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Back to Top -->
+  <button id="back-to-top" class="back-to-top" aria-label="Back to top">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+
+  <script src="script.js?v=5"></script>
+</body>
+
+</html>
